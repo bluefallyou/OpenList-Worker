@@ -228,6 +228,12 @@
       "database_id": "a0d4a785-e527-4f67-b371-c0487dafc2de"
     }
   ],
+  "kv_namespaces": [
+    {
+      "binding": "KV",
+      "id": "fcee44e1b20f48d1be62620f5301ce3f"
+    }
+  ],
   // ...
   //
   // ▶ 方案 C：Durable Objects（内置 SQLite，强一致；DB_FORMAT 建议改为 "sql"）
