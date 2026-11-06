@@ -236,9 +236,9 @@
   // ▶ 方案 C：Durable Objects（内置 SQLite，强一致；DB_FORMAT 建议改为 "sql"）
   //   注意：DO 需要 migrations，且删除成本高，适合单租户部署。
   //
-  "durable_objects": {
-     "bindings": [{ "name": "DO", "class_name": "OpenListDB" }]
-   },
+  //"durable_objects": {
+  //   "bindings": [{ "name": "DO", "class_name": "OpenListDB" }]
+  // },
   // "migrations": [
   //   { "tag": "v1", "new_sqlite_classes": ["OpenListDB"] }
   // ],
